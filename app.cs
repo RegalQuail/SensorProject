@@ -1,9 +1,9 @@
-int leds[] = {2,3,4,5,6,7,8,9,10};
+int leds[] = {2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-void setup(){
-  for (int i = 0; i < 9; i++){
-    pinMode(leds[i], OUTPUT);
-  }
+void setup() {
+    for (int i = 0; i < 9; i++) {
+        pinMode(leds[i], OUTPUT);
+    }
 }
 
 void loop() {
@@ -13,5 +13,3 @@ void loop() {
         digitalWrite(leds[i], LOW);
     }
 }
-
- 
